@@ -78,4 +78,41 @@
       padding: 1rem;
     }
   }
-  
+  /* === TEMA GEÇİŞİ === */
+
+/* Koyu Tema için body sınıfı */
+body.dark-theme {
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Koyu Tema için section ve project kutuları */
+body.dark-theme section {
+  background-color: #1e1e1e;
+  color: #e4e4e4;
+}
+
+body.dark-theme .project {
+  background-color: #2a2a2a;
+  border-left-color: #3b82f6;
+}
+
+body.dark-theme a {
+  color: #3b82f6;
+}
+
+/* Tema butonu */
+#theme-toggle {
+  padding: 10px 20px;
+  margin: 1rem;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#theme-toggle:hover {
+  background-color: #1d4ed8;
+}
